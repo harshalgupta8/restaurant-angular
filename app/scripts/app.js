@@ -8,7 +8,7 @@ angular.module('confusionApp', [])
 
   $scope.dishes = [
    {
-      name:'Uthapizza',
+      name:'Italian Pizza',
       image: 'images/uthapizza.png',
       category: 'mains',
       label:'Hot',
