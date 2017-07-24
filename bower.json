@@ -1,7 +1,7 @@
 {
-  "name": "conFusion",
+  "name": "Angular App",
   "version": "1.0.0",
-  "description": "Website for an awesome restaurant",
+  "description": "Website",
   "main": "index.html",
   "moduleType": [],
   "keywords": [
@@ -10,7 +10,7 @@
     "Restaurant"
   ],
   "authors": [
-    "Jogesh Muppala"
+    "Harshal Gupta"
   ],
   "license": "MIT",
   "homepage": "",
@@ -24,6 +24,11 @@
   "dependencies": {
     "bootstrap": "~3.3.5",
     "font-awesome": "~4.4.0",
-    "angular": "~1.4.7"
+    "angular": "~1.4.7",
+    "angular-route": "^1.6.5",
+    "angular-ui-router": "^1.0.5"
+  },
+  "resolutions": {
+    "angular": "1.6.5"
   }
 }
