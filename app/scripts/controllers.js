@@ -8,8 +8,14 @@
   $scope.filtText = '';
   $scope.showDetails = false;
 
-  $scope.dishes = menuFactory.getDishes();
+  $scope.dishes = {};
   
+  menuFactory.getDishes()
+            .then(
+                function(response) {
+                    $scope.dishes = response.data;
+                }
+            );
 
   $scope.select = function(setTab) {
     $scope.tab = setTab;
